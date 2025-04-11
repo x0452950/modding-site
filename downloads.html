@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Downloads</title>
-  
+  <meta charset="UTF-8">
+  <title>Downloads & Tools I Use</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-color: #0f0f0f;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
     }
 
-    nav {
-      margin-bottom: 40px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #00ffff;
+    a {
+      color: #00e6e6;
       text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
     }
 
-    nav a:hover {
+    a:hover {
       text-decoration: underline;
     }
 
-    h1 {
-      color: #00ffcc;
-      margin-top: 20px;
+    h1, h2 {
+      color: #00ffc3;
     }
 
-    footer {
-      margin-top: 60px;
-      padding-top: 20px;
-      font-size: 0.85rem;
-      color: #888;
-      border-top: 1px solid #222;
-      text-align: center;
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
     }
   </style>
-
 </head>
 <body>
   <nav>
-    <a href="index.html">Home</a>
+    <a href="index.html">← Back to Home</a>
   </nav>
-  <nav><a href="index.html">← Back to Home</a></nav>
+
   <h1>Downloads & Tools I Use</h1>
 
   <h2>Modding Tools</h2>
@@ -70,27 +76,22 @@
 
   <h2>Useful Linux Tools</h2>
   <ul>
-        <li><strong>Etcher</strong> – USB image flashing</li>
+    <li><strong>Etcher</strong> – USB image flashing</li>
     <li><strong>GParted</strong> – Partition manager</li>
     <li><strong>Rsync</strong> – File sync for backups</li>
     <li><strong>Samba</strong> – Network file sharing</li>
   </ul>
 
   <h2>Download Sources</h2>
-  <p><em>Note: I do not host any copyrighted or pirated files. These tools are linked to their official sources where possible.</em></p>
+  <p class="note">Note: I do not host any copyrighted or pirated files. These tools are linked to their official sources where possible.</p>
   <ul>
-    <li><a href="https://twrp.me/">TWRP</a></li>
-    <li><a href="https://developer.android.com/studio/releases/platform-tools">ADB/Fastboot</a></li>
-    <li><a href="https://github.com/LumaTeam/Luma3DS">Luma3DS on GitHub</a></li>
-    <li><a href="https://github.com/spacehuhn/USBLoaderGX">USB Loader GX</a></li>
-    <li><a href="https://openmediavault.org/">OpenMediaVault</a></li>
+    <li><a href="https://twrp.me/" target="_blank">TWRP</a></li>
+    <li><a href="https://developer.android.com/studio/releases/platform-tools" target="_blank">ADB/Fastboot</a></li>
+    <li><a href="https://github.com/LumaTeam/Luma3DS" target="_blank">Luma3DS on GitHub</a></li>
+    <li><a href="https://sourceforge.net/projects/usbloadergx/" target="_blank">USB Loader GX</a></li>
+    <li><a href="https://www.openmediavault.org/" target="_blank">OpenMediaVault</a></li>
   </ul>
 
-  <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
-    Disclaimer: All downloads are for educational and personal use only.
-  </footer>
-  <footer>
-    All guides are for educational purposes only. Use your powers responsibly.
-  </footer>
+  <p class="disclaimer">Disclaimer: All downloads are for educational and personal use only.</p>
 </body>
 </html>

@@ -1,94 +1,104 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nexus</title>
-  <style>
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
     body {
-      background-color: #0f0f0f;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }nav {
-  margin-bottom: 40px;
-  text-align: center;
-}
+    }
 
-nav a {
-  color: #00ffff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
+    a {
+      color: #00e6e6;
+      text-decoration: none;
+    }
 
-nav a:hover {
-  text-decoration: underline;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-h1 {
-  color: #00ffcc;
-  margin-top: 20px;
-}
+    h1, h2 {
+      color: #00ffc3;
+    }
 
-footer {
-  margin-top: 60px;
-  padding-top: 20px;
-  font-size: 0.85rem;
-  color: #888;
-  border-top: 1px solid #222;
-  text-align: center;
-}
+    h2 {
+      margin-top: 30px;
+    }
 
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
+    }
   </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nexus</title>
+
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-  </nav>
-  <nav><a href="index.html">← Back to Home</a></nav>
-  <h1>Nexus Tablet Rooting & Firmware Guide</h1>  <h2>Overview</h2>
-  <p>This guide covers everything from preparing your Nexus device to downgrading firmware, rooting, and installing custom recovery. Tested on various Nexus tablets with successful results.</p>  <h2>Tools Used</h2>
-  <ul>
-    <li>ADB & Fastboot</li>
-    <li>Custom Recovery (TWRP)</li>
-    <li>Rooting Packages (SuperSU, Magisk)</li>
-    <li>Odin (for specific Samsung/Nexus builds)</li>
-    <li>Google USB Drivers & Nexus Toolkit (optional)</li>
-  </ul>  <h2>Preparation</h2>
-  <ul>
-    <li>Enable <strong>Developer Options</strong> by tapping build number 7 times</li>
-    <li>Turn on <strong>OEM Unlocking</strong> and <strong>USB Debugging</strong></li>
-    <li>Install latest ADB drivers</li>
-    <li>Use <code>adb devices</code> to confirm your device is detected</li>
-  </ul>  <h2>Firmware Downgrading</h2>
-  <ul>
-    <li>Download the correct factory image from Google's official Nexus archive</li>
-    <li>Extract and flash components manually via Fastboot</li>
-    <li>Commands used: <code>fastboot flash bootloader</code>, <code>fastboot flash system</code>, etc.</li>
-    <li>Odin may be used for models based on Samsung firmware architecture</li>
-  </ul>  <h2>Unlocking Bootloader</h2>
-  <ul>
-    <li>Reboot to fastboot mode and use: <code>fastboot oem unlock</code></li>
-    <li>Device will reset — back up important data beforehand</li>
-  </ul>  <h2>Installing TWRP & Gaining Root</h2>
-  <ul>
-    <li>Flash TWRP: <code>fastboot flash recovery twrp.img</code></li>
-    <li>Boot into recovery: <code>adb reboot recovery</code></li>
-    <li>Transfer and flash SuperSU or Magisk ZIP inside TWRP</li>
-  </ul>  <h2>Post-Root Setup</h2>
-  <ul>
-    <li>Verify root using <strong>Root Checker</strong> from the Play Store</li>
-    <li>Install root tools like <strong>Titanium Backup</strong>, <strong>AdAway</strong>, and <strong>Greenify</strong></li>
-    <li>Use TWRP to create full NANDroid backups before experimenting further</li>
-  </ul>  <h2>Additional Notes</h2>
-  <ul>
-    <li>Always match firmware to your device model (Wi-Fi vs LTE)</li>
-    <li>Double-check checksum for downloaded images to avoid bricking</li>
-    <li>For soft bricks, bootloader + image flashing usually recovers the device</li>
-  </ul>  <footer>
+<nav>
+<a href="index.html">Home</a>
+</nav>
+<nav><a href="index.html">← Back to Home</a></nav>
+<h1>Nexus Tablet Rooting &amp; Firmware Guide</h1> <h2>Overview</h2>
+<p>This guide covers everything from preparing your Nexus device to downgrading firmware, rooting, and installing custom recovery. Tested on various Nexus tablets with successful results.</p> <h2>Tools Used</h2>
+<ul>
+<li>ADB &amp; Fastboot</li>
+<li>Custom Recovery (TWRP)</li>
+<li>Rooting Packages (SuperSU, Magisk)</li>
+<li>Odin (for specific Samsung/Nexus builds)</li>
+<li>Google USB Drivers &amp; Nexus Toolkit (optional)</li>
+</ul> <h2>Preparation</h2>
+<ul>
+<li>Enable <strong>Developer Options</strong> by tapping build number 7 times</li>
+<li>Turn on <strong>OEM Unlocking</strong> and <strong>USB Debugging</strong></li>
+<li>Install latest ADB drivers</li>
+<li>Use <code>adb devices</code> to confirm your device is detected</li>
+</ul> <h2>Firmware Downgrading</h2>
+<ul>
+<li>Download the correct factory image from Google's official Nexus archive</li>
+<li>Extract and flash components manually via Fastboot</li>
+<li>Commands used: <code>fastboot flash bootloader</code>, <code>fastboot flash system</code>, etc.</li>
+<li>Odin may be used for models based on Samsung firmware architecture</li>
+</ul> <h2>Unlocking Bootloader</h2>
+<ul>
+<li>Reboot to fastboot mode and use: <code>fastboot oem unlock</code></li>
+<li>Device will reset — back up important data beforehand</li>
+</ul> <h2>Installing TWRP &amp; Gaining Root</h2>
+<ul>
+<li>Flash TWRP: <code>fastboot flash recovery twrp.img</code></li>
+<li>Boot into recovery: <code>adb reboot recovery</code></li>
+<li>Transfer and flash SuperSU or Magisk ZIP inside TWRP</li>
+</ul> <h2>Post-Root Setup</h2>
+<ul>
+<li>Verify root using <strong>Root Checker</strong> from the Play Store</li>
+<li>Install root tools like <strong>Titanium Backup</strong>, <strong>AdAway</strong>, and <strong>Greenify</strong></li>
+<li>Use TWRP to create full NANDroid backups before experimenting further</li>
+</ul> <h2>Additional Notes</h2>
+<ul>
+<li>Always match firmware to your device model (Wi-Fi vs LTE)</li>
+<li>Double-check checksum for downloaded images to avoid bricking</li>
+<li>For soft bricks, bootloader + image flashing usually recovers the device</li>
+</ul> <footer>
     All guides are for educational purposes only. Use your powers responsibly.
   </footer>
 </body>

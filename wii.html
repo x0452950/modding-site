@@ -1,95 +1,97 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wii</title>
-  
-  <style>
+<head><style>
     body {
-      background-color: #0f0f0f;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
     }
 
-    nav {
-      margin-bottom: 40px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #00ffff;
+    a {
+      color: #00e6e6;
       text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
     }
 
-    nav a:hover {
+    a:hover {
       text-decoration: underline;
     }
 
-    h1 {
-      color: #00ffcc;
-      margin-top: 20px;
+    h1, h2 {
+      color: #00ffc3;
     }
 
-    footer {
-      margin-top: 60px;
-      padding-top: 20px;
-      font-size: 0.85rem;
-      color: #888;
-      border-top: 1px solid #222;
-      text-align: center;
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
     }
   </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Wii</title>
 
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-  </nav>
-  <nav><a href="index.html">← Back to Home</a></nav>
-  <h1>Wii Modding with the Homebrew Channel</h1>
-
-  <h2>Why Mod the Wii?</h2>
-  <p>The Wii is a classic console that becomes much more powerful when modded — homebrew apps, emulators, custom themes, and even backups.</p>
-
-  <h2>Tools Used</h2>
-  <ul>
-    <li>LetterBomb Exploit (4.3 firmware)</li>
-    <li>SD card (2GB–32GB, FAT32 formatted)</li>
-    <li>Homebrew Channel installer</li>
-    <li>USB Loader GX (for backups)</li>
-    <li>WAD Manager, Priiloader (optional)</li>
-  </ul>
-
-  <h2>Steps</h2>
-  <ol>
-    <li>Formatted SD card to FAT32</li>
-    <li>Generated LetterBomb online using Wii's MAC address</li>
-    <li>Inserted SD into Wii, opened Message Board, clicked red envelope</li>
-    <li>Installer launched, installed Homebrew Channel</li>
-    <li>Copied apps (like USB Loader GX) to SD `apps/` folder</li>
-    <li>Set up USB drive for game backups</li>
-    <li>Optional: Installed Priiloader for brick protection</li>
-  </ol>
-
-  <h2>What You Can Do Now</h2>
-  <ul>
-    <li>Run emulators (NES, SNES, N64, GBA, etc.)</li>
-    <li>Play backups from USB</li>
-    <li>Use custom themes and mods</li>
-    <li>Install WADs (VC/WiiWare)</li>
-  </ul>
-
-  <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
+<nav>
+<a href="index.html">Home</a>
+</nav>
+<nav><a href="index.html">← Back to Home</a></nav>
+<h1>Wii Modding with the Homebrew Channel</h1>
+<h2>Why Mod the Wii?</h2>
+<p>The Wii is a classic console that becomes much more powerful when modded — homebrew apps, emulators, custom themes, and even backups.</p>
+<h2>Tools Used</h2>
+<ul>
+<li>LetterBomb Exploit (4.3 firmware)</li>
+<li>SD card (2GB–32GB, FAT32 formatted)</li>
+<li>Homebrew Channel installer</li>
+<li>USB Loader GX (for backups)</li>
+<li>WAD Manager, Priiloader (optional)</li>
+</ul>
+<h2>Steps</h2>
+<ol>
+<li>Formatted SD card to FAT32</li>
+<li>Generated LetterBomb online using Wii's MAC address</li>
+<li>Inserted SD into Wii, opened Message Board, clicked red envelope</li>
+<li>Installer launched, installed Homebrew Channel</li>
+<li>Copied apps (like USB Loader GX) to SD `apps/` folder</li>
+<li>Set up USB drive for game backups</li>
+<li>Optional: Installed Priiloader for brick protection</li>
+</ol>
+<h2>What You Can Do Now</h2>
+<ul>
+<li>Run emulators (NES, SNES, N64, GBA, etc.)</li>
+<li>Play backups from USB</li>
+<li>Use custom themes and mods</li>
+<li>Install WADs (VC/WiiWare)</li>
+</ul>
+<footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
     Disclaimer: This guide is for educational use only. Use homebrew responsibly.
   </footer>
-  <footer>
+<footer>
     All guides are for educational purposes only. Use your powers responsibly.
   </footer>
 </body>

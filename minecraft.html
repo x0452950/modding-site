@@ -1,80 +1,94 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Minecraft</title>
-  <style>
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
     body {
-      background-color: #0f0f0f;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
     }
-    nav {
-      margin-bottom: 40px;
-      text-align: center;
-    }
-    nav a {
-      color: #00ffff;
+
+    a {
+      color: #00e6e6;
       text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
     }
-    nav a:hover {
+
+    a:hover {
       text-decoration: underline;
     }
-    h1 {
-      color: #00ffcc;
-      margin-top: 20px;
+
+    h1, h2 {
+      color: #00ffc3;
     }
-    footer {
-      margin-top: 60px;
-      padding-top: 20px;
-      font-size: 0.85rem;
-      color: #888;
-      border-top: 1px solid #222;
-      text-align: center;
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
     }
   </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Minecraft</title>
+
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-  </nav>
-  <h1>Minecraft Modding & Server Hosting</h1>
-  <p>
+<nav>
+<a href="index.html">Home</a>
+</nav>
+<h1>Minecraft Modding &amp; Server Hosting</h1>
+<p>
     This page documents my deep dive into the world of Minecraft modding and server management.
   </p>
-  <h2>Modding Experience</h2>
-  <ul>
-    <li>Installed and used classic mods like <strong>Single Player Commands</strong> and various <strong>Texture Packs</strong></li>
-    <li>Experimented with early hacked clients like <strong>Nodus</strong> during Minecraft's alpha and beta days</li>
-    <li>Installed Forge and used mods like <strong>TooManyItems</strong>, <strong>OptiFine</strong>, <strong>Rei's Minimap</strong>, and <strong>Mo' Creeps and Weirdos</strong></li>
-    <li>Set up custom Technic Launcher modpacks and worked with prebuilt ones like <strong>Tekkit</strong> and <strong>Hexxit</strong></li>
-    <li>Configured client-side and server-side compatibility for Technic modpacks</li>
-    <li>Hands-on with <strong>mod installation</strong> on both Mac and Windows — for both <strong>single-player</strong> and <strong>server-side</strong> mods</li>
-  </ul>
-  <h2>Server Hosting Experience</h2>
-  <ul>
-    <li>Ran Minecraft servers on both <strong>Mac</strong> and <strong>Windows</strong></li>
-    <li>Set up and managed <strong>Bukkit</strong> and <strong>Spigot</strong> servers with plugin support</li>
-    <li>Configured Technic Launcher servers for multiplayer support</li>
-    <li>Experienced with <strong>port forwarding</strong> using traditional routers and <strong>Hamachi</strong> for easier LAN-style connections</li>
-    <li>Configured custom plugins and mod packs to enhance gameplay and server functionality</li>
-  </ul>
-  <h2>Plugins & Permissions</h2>
-  <ul>
-    <li>Installed and managed popular server plugins like <strong>Essentials</strong>, <strong>WorldEdit</strong>, <strong>WorldGuard</strong>, <strong>Factions</strong>, <strong>mcMMO</strong>, and <strong>ChestShop</strong></li>
-    <li>Deep experience using <strong>GroupManager</strong> for role-based permission control</li>
-    <li>Created and customized multiple user groups (Admin, Mod, Builder, Default) with proper permission nodes</li>
-    <li>Configured <strong>Factions</strong> plugin with custom faction commands, land claiming, and warzones</li>
-    <li>Worked with anti-griefing plugins such as <strong>LogBlock</strong> and used commands like <code>/log</code> to investigate and roll back changes</li>
-    <li>Troubleshooted plugin conflicts and optimized performance using tools like <strong>ClearLag</strong></li>
-  </ul>
-  <footer>
+<h2>Modding Experience</h2>
+<ul>
+<li>Installed and used classic mods like <strong>Single Player Commands</strong> and various <strong>Texture Packs</strong></li>
+<li>Experimented with early hacked clients like <strong>Nodus</strong> during Minecraft's alpha and beta days</li>
+<li>Installed Forge and used mods like <strong>TooManyItems</strong>, <strong>OptiFine</strong>, <strong>Rei's Minimap</strong>, and <strong>Mo' Creeps and Weirdos</strong></li>
+<li>Set up custom Technic Launcher modpacks and worked with prebuilt ones like <strong>Tekkit</strong> and <strong>Hexxit</strong></li>
+<li>Configured client-side and server-side compatibility for Technic modpacks</li>
+<li>Hands-on with <strong>mod installation</strong> on both Mac and Windows — for both <strong>single-player</strong> and <strong>server-side</strong> mods</li>
+</ul>
+<h2>Server Hosting Experience</h2>
+<ul>
+<li>Ran Minecraft servers on both <strong>Mac</strong> and <strong>Windows</strong></li>
+<li>Set up and managed <strong>Bukkit</strong> and <strong>Spigot</strong> servers with plugin support</li>
+<li>Configured Technic Launcher servers for multiplayer support</li>
+<li>Experienced with <strong>port forwarding</strong> using traditional routers and <strong>Hamachi</strong> for easier LAN-style connections</li>
+<li>Configured custom plugins and mod packs to enhance gameplay and server functionality</li>
+</ul>
+<h2>Plugins &amp; Permissions</h2>
+<ul>
+<li>Installed and managed popular server plugins like <strong>Essentials</strong>, <strong>WorldEdit</strong>, <strong>WorldGuard</strong>, <strong>Factions</strong>, <strong>mcMMO</strong>, and <strong>ChestShop</strong></li>
+<li>Deep experience using <strong>GroupManager</strong> for role-based permission control</li>
+<li>Created and customized multiple user groups (Admin, Mod, Builder, Default) with proper permission nodes</li>
+<li>Configured <strong>Factions</strong> plugin with custom faction commands, land claiming, and warzones</li>
+<li>Worked with anti-griefing plugins such as <strong>LogBlock</strong> and used commands like <code>/log</code> to investigate and roll back changes</li>
+<li>Troubleshooted plugin conflicts and optimized performance using tools like <strong>ClearLag</strong></li>
+</ul>
+<footer>
     All guides are for educational purposes only. Use your powers responsibly.
   </footer>
 </body>

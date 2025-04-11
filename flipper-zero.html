@@ -1,87 +1,89 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Flipper Zero</title>
-  
-  <style>
+<head><style>
     body {
-      background-color: #0f0f0f;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
     }
 
-    nav {
-      margin-bottom: 40px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #00ffff;
+    a {
+      color: #00e6e6;
       text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
     }
 
-    nav a:hover {
+    a:hover {
       text-decoration: underline;
     }
 
-    h1 {
-      color: #00ffcc;
-      margin-top: 20px;
+    h1, h2 {
+      color: #00ffc3;
     }
 
-    footer {
-      margin-top: 60px;
-      padding-top: 20px;
-      font-size: 0.85rem;
-      color: #888;
-      border-top: 1px solid #222;
-      text-align: center;
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
     }
   </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Flipper Zero</title>
 
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-  </nav>
-  <nav><a href="index.html">← Back to Home</a></nav>
-  <h1>Flipper Zero Projects & Tools</h1>
-
-  <img src="images/flipper-zero.jpg" alt="Flipper Zero Device">
-
-  <h2>What is Flipper Zero?</h2>
-  <p>Flipper Zero is a portable multi-tool for pentesters, hackers, and hardware tinkerers. It supports RF, IR, RFID/NFC, GPIO, and more — all from a tiny Tamagotchi-style device.</p>
-
-  <h2>Tools I Use</h2>
-  <ul>
-    <li>Official Flipper Firmware + QFlipper</li>
-    <li>Unleashed/Custom Firmware for advanced features</li>
-    <li>Flipper Apps + Plugins (badusb, signal replay)</li>
-    <li>SubGHz signal capture</li>
-    <li>U2F dongle for 2FA testing</li>
-  </ul>
-
-  <h2>Project Ideas</h2>
-  <ul>
-    <li>Replay garage remotes with SubGHz</li>
-    <li>Test RFID badge access</li>
-    <li>Use GPIO to trigger relays</li>
-    <li>Brute force PINs (for fun, not crime!)</li>
-    <li>IR blast to control TVs in public places</li>
-  </ul>
-
-  <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
+<nav>
+<a href="index.html">Home</a>
+</nav>
+<nav><a href="index.html">← Back to Home</a></nav>
+<h1>Flipper Zero Projects &amp; Tools</h1>
+<img alt="Flipper Zero Device" src="images/flipper-zero.jpg"/>
+<h2>What is Flipper Zero?</h2>
+<p>Flipper Zero is a portable multi-tool for pentesters, hackers, and hardware tinkerers. It supports RF, IR, RFID/NFC, GPIO, and more — all from a tiny Tamagotchi-style device.</p>
+<h2>Tools I Use</h2>
+<ul>
+<li>Official Flipper Firmware + QFlipper</li>
+<li>Unleashed/Custom Firmware for advanced features</li>
+<li>Flipper Apps + Plugins (badusb, signal replay)</li>
+<li>SubGHz signal capture</li>
+<li>U2F dongle for 2FA testing</li>
+</ul>
+<h2>Project Ideas</h2>
+<ul>
+<li>Replay garage remotes with SubGHz</li>
+<li>Test RFID badge access</li>
+<li>Use GPIO to trigger relays</li>
+<li>Brute force PINs (for fun, not crime!)</li>
+<li>IR blast to control TVs in public places</li>
+</ul>
+<footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
     Disclaimer: Use Flipper Zero responsibly. This page is for educational and testing use only.
   </footer>
-  <footer>
+<footer>
     All guides are for educational purposes only. Use your powers responsibly.
   </footer>
 </body>

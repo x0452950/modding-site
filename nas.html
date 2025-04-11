@@ -1,80 +1,90 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nas</title>
-  <style>
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
     body {
-      background-color: #0f0f0f;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }nav {
-  margin-bottom: 40px;
-  text-align: center;
-}
+    }
 
-nav a {
-  color: #00ffff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
+    a {
+      color: #00e6e6;
+      text-decoration: none;
+    }
 
-nav a:hover {
-  text-decoration: underline;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-h1 {
-  color: #00ffcc;
-  margin-top: 20px;
-}
+    h1, h2 {
+      color: #00ffc3;
+    }
 
-footer {
-  margin-top: 60px;
-  padding-top: 20px;
-  font-size: 0.85rem;
-  color: #888;
-  border-top: 1px solid #222;
-  text-align: center;
-}
+    h2 {
+      margin-top: 30px;
+    }
 
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
+    }
   </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nas</title>
+
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-  </nav>
-  <nav><a href="index.html">← Back to Home</a></nav>
-  <h1>Building a NAS & Linux Server from Old PC Parts</h1>  <h2>Why Build a NAS?</h2>
-  <p>A Network Attached Storage (NAS) server lets you share files, run backups, and host media from anywhere on your home network — all using free open-source tools.</p>  <h2>What I Used</h2>
-  <ul>
-    <li>Old desktop PC (quad-core, 4GB RAM, 2x 1TB HDD)</li>
-    <li>Ubuntu Server / Linux Mint</li>
-    <li>Samba (file sharing)</li>
-    <li>OpenMediaVault (optional web-based interface)</li>
-    <li>FreeNAS / TrueNAS (for ZFS storage, snapshots, and enterprise-grade features)</li>
-  </ul>  <h2>Steps</h2>
-  <ol>
-    <li>Installed Ubuntu Server, Linux Mint, or FreeNAS via USB</li>
-    <li>Formatted and mounted HDDs using built-in partitioning tools</li>
-    <li>Installed Samba: <code>sudo apt install samba</code> or configured CIFS shares in FreeNAS</li>
-    <li>Configured <code>/etc/samba/smb.conf</code> or FreeNAS GUI with shared folders</li>
-    <li>Set permissions and enabled remote access</li>
-    <li>Optional: Installed OpenMediaVault for web UI management (Linux only)</li>
-  </ol>  <h2>Optional Features</h2>
-  <ul>
-    <li>Used rsync for backups</li>
-    <li>Ran a Minecraft server in background</li>
-    <li>Used it as a torrent box with Transmission</li>
-    <li>Mounted shares on Windows and Android</li>
-  </ul>  <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
+<nav>
+<a href="index.html">Home</a>
+</nav>
+<nav><a href="index.html">← Back to Home</a></nav>
+<h1>Building a NAS &amp; Linux Server from Old PC Parts</h1> <h2>Why Build a NAS?</h2>
+<p>A Network Attached Storage (NAS) server lets you share files, run backups, and host media from anywhere on your home network — all using free open-source tools.</p> <h2>What I Used</h2>
+<ul>
+<li>Old desktop PC (quad-core, 4GB RAM, 2x 1TB HDD)</li>
+<li>Ubuntu Server / Linux Mint</li>
+<li>Samba (file sharing)</li>
+<li>OpenMediaVault (optional web-based interface)</li>
+<li>FreeNAS / TrueNAS (for ZFS storage, snapshots, and enterprise-grade features)</li>
+</ul> <h2>Steps</h2>
+<ol>
+<li>Installed Ubuntu Server, Linux Mint, or FreeNAS via USB</li>
+<li>Formatted and mounted HDDs using built-in partitioning tools</li>
+<li>Installed Samba: <code>sudo apt install samba</code> or configured CIFS shares in FreeNAS</li>
+<li>Configured <code>/etc/samba/smb.conf</code> or FreeNAS GUI with shared folders</li>
+<li>Set permissions and enabled remote access</li>
+<li>Optional: Installed OpenMediaVault for web UI management (Linux only)</li>
+</ol> <h2>Optional Features</h2>
+<ul>
+<li>Used rsync for backups</li>
+<li>Ran a Minecraft server in background</li>
+<li>Used it as a torrent box with Transmission</li>
+<li>Mounted shares on Windows and Android</li>
+</ul> <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
     Disclaimer: Always secure your NAS with user authentication and firewalls. Local network use recommended.
   </footer>
-  <footer>
+<footer>
     All guides are for educational purposes only. Use your powers responsibly.
   </footer>
 </body>

@@ -1,93 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Raspberry</title>
-  
-  <style>
+<head><style>
     body {
-      background-color: #0f0f0f;
-      color: #e0e0e0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 20px;
-      max-width: 900px;
-      margin: auto;
     }
 
-    nav {
-      margin-bottom: 40px;
-      text-align: center;
-    }
-
-    nav a {
-      color: #00ffff;
+    a {
+      color: #00e6e6;
       text-decoration: none;
-      margin: 0 10px;
-      font-weight: bold;
     }
 
-    nav a:hover {
+    a:hover {
       text-decoration: underline;
     }
 
-    h1 {
-      color: #00ffcc;
-      margin-top: 20px;
+    h1, h2 {
+      color: #00ffc3;
     }
 
-    footer {
-      margin-top: 60px;
-      padding-top: 20px;
-      font-size: 0.85rem;
-      color: #888;
-      border-top: 1px solid #222;
-      text-align: center;
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
     }
   </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Raspberry</title>
 
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-  </nav>
-  <nav><a href="index.html">← Back to Home</a></nav>
-  <h1>Raspberry Pi Setup & Projects</h1>
-
-  <h2>Why I Use Raspberry Pi</h2>
-  <p>The Raspberry Pi is perfect for DIY tech experiments — small, affordable, and surprisingly powerful. I've used it as a server, emulator box, and more.</p>
-
-  <h2>Tools & Accessories</h2>
-  <ul>
-    <li>Raspberry Pi 3/4</li>
-    <li>microSD card (16GB+)</li>
-    <li>Power supply & case</li>
-    <li>HDMI cable, monitor, keyboard (for first setup)</li>
-    <li>Image writer like Etcher</li>
-  </ul>
-
-  <h2>Projects I've Built</h2>
-  <ul>
-    <li><strong>RetroPie</strong> – Classic game emulator box for SNES, GBA, PS1, etc.</li>
-    <li><strong>Pi-hole</strong> – Network-wide ad blocker</li>
-    <li><strong>Home NAS</strong> – Basic file server with Samba</li>
-    <li><strong>VPN Server</strong> – Private Pi VPN using OpenVPN</li>
-    <li><strong>Media Center</strong> – Kodi-based local video and streaming hub</li>
-  </ul>
-
-  <h2>Setup Steps (Example: RetroPie)</h2>
-  <ol>
-    <li>Flashed RetroPie image to SD card using Etcher</li>
-    <li>Booted Pi, configured controller</li>
-    <li>Copied ROMs via USB or network</li>
-    <li>Connected to Wi-Fi and updated packages</li>
-  </ol>
-
-  <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
+<nav>
+<a href="index.html">Home</a>
+</nav>
+<nav><a href="index.html">← Back to Home</a></nav>
+<h1>Raspberry Pi Setup &amp; Projects</h1>
+<h2>Why I Use Raspberry Pi</h2>
+<p>The Raspberry Pi is perfect for DIY tech experiments — small, affordable, and surprisingly powerful. I've used it as a server, emulator box, and more.</p>
+<h2>Tools &amp; Accessories</h2>
+<ul>
+<li>Raspberry Pi 3/4</li>
+<li>microSD card (16GB+)</li>
+<li>Power supply &amp; case</li>
+<li>HDMI cable, monitor, keyboard (for first setup)</li>
+<li>Image writer like Etcher</li>
+</ul>
+<h2>Projects I've Built</h2>
+<ul>
+<li><strong>RetroPie</strong> – Classic game emulator box for SNES, GBA, PS1, etc.</li>
+<li><strong>Pi-hole</strong> – Network-wide ad blocker</li>
+<li><strong>Home NAS</strong> – Basic file server with Samba</li>
+<li><strong>VPN Server</strong> – Private Pi VPN using OpenVPN</li>
+<li><strong>Media Center</strong> – Kodi-based local video and streaming hub</li>
+</ul>
+<h2>Setup Steps (Example: RetroPie)</h2>
+<ol>
+<li>Flashed RetroPie image to SD card using Etcher</li>
+<li>Booted Pi, configured controller</li>
+<li>Copied ROMs via USB or network</li>
+<li>Connected to Wi-Fi and updated packages</li>
+</ol>
+<footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
     Disclaimer: Emulators are legal, but only use ROMs you legally own.
   </footer>
-  <footer>
+<footer>
     All guides are for educational purposes only. Use your powers responsibly.
   </footer>
 </body>
