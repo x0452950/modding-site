@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NAS & Linux Server Setup</title>
+  <style>
+    body { background: #000; color: #fff; font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+    h1 { color: #00ff99; }
+    a { color: #00ffff; }
+    nav { margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <nav><a href="index.html">← Back to Home</a></nav>
+  <h1>Building a NAS & Linux Server from Old PC Parts</h1>
+
+  <h2>Why Build a NAS?</h2>
+  <p>A Network Attached Storage (NAS) server lets you share files, run backups, and host media from anywhere on your home network — all using free open-source tools.</p>
+
+  <h2>What I Used</h2>
+  <ul>
+    <li>Old desktop PC (quad-core, 4GB RAM, 2x 1TB HDD)</li>
+    <li>Ubuntu Server / Linux Mint</li>
+    <li>Samba (file sharing)</li>
+    <li>OpenMediaVault (optional web-based interface)</li>
+    <li>Parted Magic (for disk prep)</li>
+  </ul>
+
+  <h2>Steps</h2>
+  <ol>
+    <li>Installed Ubuntu Server or Linux Mint via USB</li>
+    <li>Formatted and mounted HDDs using parted or GParted</li>
+    <li>Installed Samba: <code>sudo apt install samba</code></li>
+    <li>Configured <code>/etc/samba/smb.conf</code> with shared folders</li>
+    <li>Set permissions and enabled remote access</li>
+    <li>Optional: Installed OpenMediaVault for web UI management</li>
+  </ol>
+
+  <h2>Optional Features</h2>
+  <ul>
+    <li>Used rsync for backups</li>
+    <li>Ran a Minecraft server in background</li>
+    <li>Used it as a torrent box with Transmission</li>
+    <li>Mounted shares on Windows and Android</li>
+  </ul>
+
+  <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
+    Disclaimer: Always secure your NAS with user authentication and firewalls. Local network use recommended.
+  </footer>
+</body>
+</html>
