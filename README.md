@@ -1,36 +1,44 @@
 # My Modding Vault
 
-A personal archive of console hacking, device modding, and DIY server setups. This site showcases projects I've done — from jailbreaking handhelds to setting up Linux servers and Minecraft mods.
+A personal archive of console hacking, device modding, game cheats, and DIY server setups. This static site documents everything I’ve done — from rooting tablets to launching private servers.
 
 ## Featured Guides
 
 - **Android Rooting** – Nexus tablet with Odin & TWRP
-- **3DS Modding** – Luma3DS, Arm9, FBI, emulators
+- **New 3DS Modding** – Luma3DS, Boot9Strap, Braindump, CIA installs
 - **PS Vita / PSP CFW** – Enso, PRO-CFW, Adrenaline
-- **Wii Homebrew** – LetterBomb, USB Loader GX
-- **iOS Jailbreaking** – Cydia, checkra1n, tweaks
-- **Minecraft Server** – Bukkit, Factions, Jail, port forwarding
+- **Wii Homebrew** – LetterBomb, USB Loader GX, Gecko codes
+- **iOS Jailbreaking** – Cydia, Checkra1n, tweaks, SHSH blobs
+- **Minecraft Server** – Bukkit, Factions, Jail, port forwarding & Hamachi
 - **NAS Build** – Ubuntu server + Samba, OpenMediaVault
-- **Raspberry Pi** – RetroPie, Pi-hole, VPN, file server
-- **Flipper Zero** – Tools, firmware, RF/NFC hacking
+- **Raspberry Pi** – RetroPie, Pi-hole, VPN, media servers
+- **Flipper Zero** – Tools, signal replay, firmware mods
+- **Game Hacking Hub** – Save editors, trainers, cheat engines
 
 ## Tools & Downloads
 
-The [Downloads & Tools page](downloads.html) includes:
+Check the [Downloads & Tools](downloads.html) page for:
 - Flashing tools (Odin, ADB/Fastboot, TWRP)
-- Custom firmware (Luma3DS, PRO-CFW, etc.)
-- Raspberry Pi & Linux utilities
-- Flipper Zero firmware & plugin resources
+- CFW and bootloader utilities
+- Flipper Zero firmware links
+- Save editors & cheat trainers
 
-## Deploy This Site
+## Game Hacking Sections
 
-This is a static HTML site — no build tools needed.
+- 3DS Save Editors (Checkpoint + PKHeX)
+- Wii/GameCube Cheats (Gecko + Riivolution)
+- PPSSPP CWCheats
+- RetroArch cheats for classics
+- PC Cheat Engine + FLiNG + Gibbed's Save Editor
 
+## Deployment
+
+No frameworks needed — this is a flat HTML site.  
 You can host it:
 - on [GitHub Pages](https://pages.github.com)
-- or with [Netlify](https://netlify.com) (recommended for drag & drop)
+- with [Netlify](https://netlify.com)
 
-## License & Disclaimer
+## Disclaimer
 
-All guides are for educational purposes only.  
-No copyrighted or pirated content is hosted.
+All information is for educational purposes only.  
+No pirated content is included or linked.
