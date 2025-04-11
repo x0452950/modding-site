@@ -4,6 +4,7 @@ A personal archive of console hacking, device modding, game cheats, and DIY serv
 This static site documents everything I’ve done — from rooting tablets to launching private servers.
 
 ## Featured Guides
+- **[AI Voice Assistant](voice-ai.html)** – ChatGPT + ElevenLabs + Tasker for Android voice automation
 
 - **[Android Rooting](nexus.html)** – Nexus tablet with Odin & TWRP
 - **[New 3DS Modding](3ds.html)** – Luma3DS, Boot9Strap, Braindump, CIA installs
