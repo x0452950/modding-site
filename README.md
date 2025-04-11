@@ -15,7 +15,7 @@ This static site documents everything I’ve done — from rooting tablets to la
 - **[Raspberry Pi](raspberry.html)** – RetroPie, Pi-hole, VPN, media servers
 - **[Flipper Zero](flipper-zero.html)** – Tools, signal replay, firmware mods
 - **[PC Game Hacks & Editors](pc-game-hacks.html)** – Cheat Engine, trainers, save editors
-- **[DOOM on Sansa (Rockbox)](doom-sansa.html)** – Rockbox install + running DOOM on a tiny MP3 player
+- **[DOOM on Sansa (Rockbox)](doom.html)** – Rockbox install + running DOOM on a tiny MP3 player
 
 ## Tools & Downloads
 
