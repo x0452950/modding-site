@@ -1,86 +1,92 @@
-<!DOCTYPE html>
-<html lang="en">
-<head><style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-
-    a {
-      color: #00e6e6;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    h1, h2 {
-      color: #00ffc3;
-    }
-
-    h2 {
-      margin-top: 30px;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    li {
-      margin-bottom: 8px;
-    }
-
-    nav {
-      margin-bottom: 20px;
-    }
-
-    .note, .disclaimer {
-      font-size: 0.9em;
-      color: #ccc;
-    }
-
-    .disclaimer {
-      border-top: 1px solid #333;
-      margin-top: 30px;
-      padding-top: 10px;
-    }
-  </style>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>3DS Modding</title>
-
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3DS Modding Guide</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
-<body>
-<nav>
-<a href="index.html">Home</a>
-</nav>
-<h1>3DS / New 3DS XL Modding Guide</h1>
-<h2>Overview</h2>
-<p>This guide covers modding the original Nintendo 3DS and New 3DS XL using modern homebrew and custom firmware methods.</p>
-<h2>Tools &amp; Software</h2>
-<ul>
-<li><a href="https://github.com/fincs/new-hbmenu" target="_blank">Homebrew Launcher</a></li>
-<li><a href="https://github.com/d0k3/SafeB9SInstaller" target="_blank">SafeB9SInstaller</a></li>
-<li><a href="https://github.com/LumaTeam/Luma3DS" target="_blank">Luma3DS CFW</a></li>
-<li><a href="https://github.com/Steveice10/FBI" target="_blank">FBI (CIA Manager)</a></li>
-<li><a href="https://github.com/SciresM/boot9strap" target="_blank">boot9strap</a> / arm9loaderhax (deprecated)</li>
-<li><a href="https://github.com/neobrain/braindump" target="_blank">braindump (game decryption &amp; dumping)</a></li>
-</ul>
-<h2>What I Did</h2>
-<ul>
-<li>Installed <strong>custom firmware</strong> with Luma3DS</li>
-<li>Used <strong>SafeB9SInstaller</strong> to safely install boot9strap</li>
-<li>Set up <strong>Homebrew Launcher</strong> to access apps and utilities</li>
-<li>Installed <strong>FBI</strong> for CIA file management and homebrew titles</li>
-<li>Used <strong>braindump</strong> to extract and decrypt games for modding or emulation</li>
-<li>Tested emulators and game mods</li>
-</ul>
-<footer>
-    All guides are for educational purposes only. Use your powers responsibly.
-  </footer>
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <div class="max-w-4xl mx-auto p-6">
+    <h1 class="text-3xl font-bold mb-4">3DS Modding Guide (2025 Update)</h1>
+    <p class="mb-4 italic text-red-600">Disclaimer: This guide is for educational purposes only. Do not use custom firmware (CFW) to run pirated content. Modding your 3DS may void your warranty.</p><section class="mb-6">
+  <h2 class="text-2xl font-semibold mb-2">What Is 3DS Modding?</h2>
+  <p>Modding a Nintendo 3DS allows you to unlock new features like homebrew apps, emulators, custom themes, save file backups, and more. You’ll install custom firmware (CFW), typically using a free tool called Boot9Strap or Luma3DS.</p>
+</section>
+
+<section class="mb-6">
+  <h2 class="text-2xl font-semibold mb-2">Is Your 3DS Moddable?</h2>
+  <table class="w-full table-auto border border-gray-300 mb-4">
+    <thead>
+      <tr class="bg-gray-200">
+        <th class="border px-4 py-2">Model</th>
+        <th class="border px-4 py-2">Supported Firmware</th>
+        <th class="border px-4 py-2">Modding Method</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border px-4 py-2">Old/New 3DS/2DS</td>
+        <td class="border px-4 py-2">11.17 or below</td>
+        <td class="border px-4 py-2">SafeB9SInstaller + Luma3DS</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2">2DS XL</td>
+        <td class="border px-4 py-2">11.17 or below</td>
+        <td class="border px-4 py-2">Same as above</td>
+      </tr>
+    </tbody>
+  </table>
+  <p><strong>Check your system version:</strong> Go to <em>System Settings</em> → it's shown on the bottom-right corner of the top screen.</p>
+</section>
+
+<section class="mb-6">
+  <h2 class="text-2xl font-semibold mb-2">What You’ll Need</h2>
+  <ul class="list-disc list-inside">
+    <li>A 3DS/2DS with firmware 11.17 or lower</li>
+    <li>A microSD card (at least 4GB)</li>
+    <li>A computer (Windows/macOS/Linux)</li>
+    <li>Internet access on your 3DS</li>
+    <li>Files from: <a href="https://3ds.hacks.guide/" class="text-blue-600 underline">3ds.hacks.guide</a></li>
+  </ul>
+</section>
+
+<section class="mb-6">
+  <h2 class="text-2xl font-semibold mb-2">Step-by-Step Installation</h2>
+  <ol class="list-decimal list-inside space-y-2">
+    <li><strong>Prep Your SD Card:</strong> Format to FAT32. Download the latest versions of Luma3DS, SafeB9SInstaller, and boot9strap. Place the files on the SD card root.</li>
+    <li><strong>Install PicHaxx:</strong> Download the save file. Open the Nintendo 3DS Camera and scan the PicHaxx QR code. Follow prompts to open the Homebrew Launcher.</li>
+    <li><strong>Run SafeB9SInstaller:</strong> Launch from Homebrew. This installs Boot9Strap and Luma3DS CFW. You’ll see the Luma3DS config screen after reboot.</li>
+    <li><strong>Finalize Setup:</strong> Enable options like "Show NAND" and "Enable game patching". Press Start to reboot.</li>
+  </ol>
+</section>
+
+<section class="mb-6">
+  <h2 class="text-2xl font-semibold mb-2">What Now?</h2>
+  <ul class="list-disc list-inside">
+    <li>Launch Homebrew Launcher from the Home Menu</li>
+    <li>Install FBI for homebrew apps</li>
+    <li>Use Checkpoint for save backups</li>
+    <li>Install custom themes and emulators</li>
+  </ul>
+</section>
+
+<section class="mb-6">
+  <h2 class="text-2xl font-semibold mb-2">Common Issues</h2>
+  <ul class="list-disc list-inside">
+    <li><strong>Black screen after modding:</strong> Hold Start + Select + Power to re-enter Luma config</li>
+    <li><strong>Homebrew Launcher won’t boot:</strong> Recheck your SD card files and formatting</li>
+  </ul>
+</section>
+
+<section>
+  <h2 class="text-2xl font-semibold mb-2">Resources</h2>
+  <ul class="list-disc list-inside">
+    <li><a href="https://3ds.hacks.guide/" class="text-blue-600 underline">3DS Hacks Guide</a></li>
+    <li><a href="https://reddit.com/r/3dshacks" class="text-blue-600 underline">r/3dshacks subreddit</a></li>
+    <li><a href="https://github.com/Steveice10/FBI" class="text-blue-600 underline">FBI GitHub Repo</a></li>
+  </ul>
+</section>
+
+  </div>
 </body>
 </html>
