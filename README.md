@@ -1,42 +1,49 @@
 # My Modding Vault
 
-A personal archive of console hacking, device modding, game cheats, and DIY server setups. This static site documents everything I’ve done — from rooting tablets to launching private servers.
+A personal archive of console hacking, device modding, game cheats, and DIY server setups.  
+This static site documents everything I’ve done — from rooting tablets to launching private servers.
 
 ## Featured Guides
 
-- **Android Rooting** – Nexus tablet with Odin & TWRP
-- **New 3DS Modding** – Luma3DS, Boot9Strap, Braindump, CIA installs
-- **PS Vita / PSP CFW** – Enso, PRO-CFW, Adrenaline
-- **Wii Homebrew** – LetterBomb, USB Loader GX, Gecko codes
-- **iOS Jailbreaking** – Cydia, Checkra1n, tweaks, SHSH blobs
-- **Minecraft Server** – Bukkit, Factions, Jail, port forwarding & Hamachi
-- **NAS Build** – Ubuntu server + Samba, OpenMediaVault
-- **Raspberry Pi** – RetroPie, Pi-hole, VPN, media servers
-- **Flipper Zero** – Tools, signal replay, firmware mods
-- **Game Hacking Hub** – Save editors, trainers, cheat engines
+- **[Android Rooting](nexus.html)** – Nexus tablet with Odin & TWRP
+- **[New 3DS Modding](3ds.html)** – Luma3DS, Boot9Strap, Braindump, CIA installs
+- **[PS Vita / PSP CFW](vita.html)** – Enso, PRO-CFW, Adrenaline
+- **[Wii Homebrew](wii.html)** – LetterBomb, USB Loader GX, Gecko codes
+- **[iOS Jailbreaking](ios-jailbreaking.html)** – Cydia, Checkra1n, tweaks, SHSH blobs
+- **[Minecraft Server](minecraft.html)** – Bukkit, Factions, Jail, port forwarding & Hamachi
+- **[NAS Build](nas.html)** – Ubuntu server + Samba, OpenMediaVault
+- **[Raspberry Pi](raspberry.html)** – RetroPie, Pi-hole, VPN, media servers
+- **[Flipper Zero](flipper-zero.html)** – Tools, signal replay, firmware mods
+- **[PC Game Hacks & Editors](pc-game-hacks.html)** – Cheat Engine, trainers, save editors
 
 ## Tools & Downloads
 
-Check the [Downloads & Tools](downloads.html) page for:
+See the **[Downloads & Tools](downloads.html)** page for:
 - Flashing tools (Odin, ADB/Fastboot, TWRP)
 - CFW and bootloader utilities
-- Flipper Zero firmware links
 - Save editors & cheat trainers
+- Flipper Zero firmware & mod links
 
 ## Game Hacking Sections
 
-- 3DS Save Editors (Checkpoint + PKHeX)
-- Wii/GameCube Cheats (Gecko + Riivolution)
-- PPSSPP CWCheats
-- RetroArch cheats for classics
-- PC Cheat Engine + FLiNG + Gibbed's Save Editor
+### Consoles
+- 3DS: Checkpoint + PKHeX
+- PSP: CWCheats
+- Wii/GameCube: Gecko + Riivolution
+- Retro: RetroArch cheat system
+
+### PC
+- Cheat Engine
+- FLiNG + MrAntiFun Trainers
+- Gibbed’s Save Editor (Borderlands 2)
+- Universal Steam game cheats (Skyrim, Fallout, Cyberpunk, Witcher 3)
 
 ## Deployment
 
-No frameworks needed — this is a flat HTML site.  
-You can host it:
-- on [GitHub Pages](https://pages.github.com)
-- with [Netlify](https://netlify.com)
+This is a flat HTML site — no frameworks or builds.  
+Host it easily using:
+- [GitHub Pages](https://pages.github.com)
+- [Netlify](https://netlify.com)
 
 ## Disclaimer
 
