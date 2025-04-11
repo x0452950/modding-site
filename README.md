@@ -5,7 +5,6 @@ This static site documents everything I’ve done — from rooting tablets to la
 
 ## Featured Guides
 - **[AI Voice Assistant](voice-ai.html)** – ChatGPT + ElevenLabs + Tasker for Android voice automation
-
 - **[Android Rooting](nexus.html)** – Nexus tablet with Odin & TWRP
 - **[New 3DS Modding](3ds.html)** – Luma3DS, Boot9Strap, Braindump, CIA installs
 - **[PS Vita / PSP CFW](vita.html)** – Enso, PRO-CFW, Adrenaline
@@ -16,6 +15,7 @@ This static site documents everything I’ve done — from rooting tablets to la
 - **[Raspberry Pi](raspberry.html)** – RetroPie, Pi-hole, VPN, media servers
 - **[Flipper Zero](flipper-zero.html)** – Tools, signal replay, firmware mods
 - **[PC Game Hacks & Editors](pc-game-hacks.html)** – Cheat Engine, trainers, save editors
+- **[DOOM on Sansa (Rockbox)](doom-sansa.html)** – Rockbox install + running DOOM on a tiny MP3 player
 
 ## Tools & Downloads
 
@@ -32,6 +32,7 @@ See the **[Downloads & Tools](downloads.html)** page for:
 - PSP: CWCheats
 - Wii/GameCube: Gecko + Riivolution
 - Retro: RetroArch cheat system
+- **Rockbox**: [DOOM port on Sansa MP3](doom.html)
 
 ### PC
 - Cheat Engine
