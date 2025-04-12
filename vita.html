@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PS Vita Custom Firmware Guide</title>
-  
-<style>
-  body { background: #000; color: #fff; font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto; }
-  h1 { color: #00ff99; }
-  a { color: #00ffff; }
-  nav { margin-bottom: 20px; }
-</style>
+<head><style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
 
+    a {
+      color: #00e6e6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h1, h2 {
+      color: #00ffc3;
+    }
+
+    h2 {
+      margin-top: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    nav {
+      margin-bottom: 20px;
+    }
+
+    .note, .disclaimer {
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    .disclaimer {
+      border-top: 1px solid #333;
+      margin-top: 30px;
+      padding-top: 10px;
+    }
+</style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Vita</title>
 </head>
 <body>
-  <nav><a href="index.html">← Back to Home</a></nav>
-  <h1>PS Vita Custom Firmware Guide</h1>
-  
-        <h2>Tools Used</h2>
-        <p>H-encore, Enso, Adrenaline, SD2Vita</p>
-        <p>Installed custom firmware to play backups and run homebrew apps.</p>
-        
+<nav><a href="index.html">← Back to Home</a></nav>
+
+<h1>PS Vita Custom Firmware Guide</h1>
+
+<h2>What I Did</h2>
+<p>I softmodded my PS Vita to run backups, emulators, and homebrew. I used a combination of H-encore, Enso, and SD2Vita to fully unlock the system. This guide is a mix of my experience and proven methods used by the community.</p>
+
+<h2>Tools I Used</h2>
+<ul>
+  <li><strong>H-encore</strong> – Used to exploit firmware 3.60–3.68 and enable homebrew access.</li>
+  <li><strong>Enso</strong> – Made the CFW permanent (auto-runs on boot) on supported firmwares.</li>
+  <li><strong>Adrenaline</strong> – Enabled a full PSP emulator on Vita for running PSP games and plugins.</li>
+  <li><strong>SD2Vita</strong> – Let me use a microSD card as internal storage via the game card slot.</li>
+</ul>
+
+<h2>Custom Firmware Installation Techniques</h2>
+<ul>
+  <li><strong>Firmware 3.60:</strong> Best firmware. Use <code>HENkaku</code> with <a href="https://henkaku.xyz" target="_blank">henkaku.xyz</a> directly in browser. Then install Enso for permanent CFW.</li>
+  <li><strong>Firmware 3.65:</strong> Update from 3.60 and install Enso-compatible H-encore. Requires some manual file prep.</li>
+  <li><strong>Firmware 3.67 / 3.68:</strong> Use <code>H-encore</code> to gain temporary CFW each reboot. Install VitaShell, run homebrew.</li>
+  <li><strong>Firmware 3.69+</strong>: Downgrade using <code>modoru</code> to 3.60/3.65 to install Enso. This was the route I had to take.</li>
+</ul>
+
+<h2>Homebrew I Installed</h2>
+<ul>
+  <li><strong>VitaShell</strong> – File manager and homebrew installer</li>
+  <li><strong>Adrenaline</strong> – Full PSP firmware layer inside Vita</li>
+  <li><strong>PKGj</strong> – FreeShop-style app for downloading games (homebrew-only use!)</li>
+  <li><strong>Autoplugin</strong> – Quick install of essential plugins like overclocking, SD2Vita, battery %, etc.</li>
+</ul>
+
+<h2>Notes from My Setup</h2>
+<ul>
+  <li>I had to downgrade from 3.73 to 3.65 using Modoru — risky but worth it to get Enso.</li>
+  <li>SD2Vita required setting up <code>storage_config.txt</code> correctly or it wouldn’t boot.</li>
+  <li>Enso made my setup truly bootable without rerunning H-encore every time.</li>
+</ul>
+
+<h2>Disclaimer</h2>
+<p class="disclaimer">This guide is for educational purposes only. Use responsibly and only on devices you own.</p>
+
 </body>
 </html>
