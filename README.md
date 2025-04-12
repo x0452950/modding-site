@@ -1,9 +1,14 @@
 # My Modding Vault
 
-A personal archive of console hacking, device modding, game cheats, and DIY server setups.  
-This static site documents everything I’ve done — from rooting tablets to launching private servers.
+A personal archive of console hacking, device modding, game hacking, server setups, and cybersecurity experiments.  
+This static HTML site documents everything I’ve explored — from rooting Android devices to building enterprise-grade NIDS.
 
-## Featured Guides
+Hosted here: [https://x0452950.github.io/modding-site](https://x0452950.github.io/modding-site)
+
+---
+
+## Featured Modding & Tech Projects
+
 - **[AI Voice Assistant](voice-ai.html)** – ChatGPT + ElevenLabs + Tasker for Android voice automation
 - **[Android Rooting](nexus.html)** – Nexus tablet with Odin & TWRP
 - **[New 3DS Modding](3ds.html)** – Luma3DS, Boot9Strap, Braindump, CIA installs
@@ -13,43 +18,51 @@ This static site documents everything I’ve done — from rooting tablets to la
 - **[iOS Jailbreaking](ios-jailbreaking.html)** – Cydia, Checkra1n, tweaks, SHSH blobs
 - **[Minecraft Server](minecraft.html)** – Bukkit, Factions, Jail, port forwarding & Hamachi
 - **[NAS Build](nas.html)** – Ubuntu server + Samba, OpenMediaVault
-- **[Raspberry Pi](raspberry.html)** – RetroPie, Pi-hole, VPN, media servers
-- **[Flipper Zero](flipper-zero.html)** – Tools, signal replay, firmware mods
-- **[PC Game Hacks & Editors](pc-game-hacks.html)** – Cheat Engine, trainers, save editors
-- **[DOOM on Sansa (Rockbox)](doom.html)** – Rockbox install + running DOOM on a tiny MP3 player
+- **[Raspberry Pi Projects](raspberry.html)** – RetroPie, Pi-hole, VPN, media servers  
+  └ **[Network IDS Enterprise](https://github.com/x0452950/network-ids-enterprise)** – Snort-powered Raspberry Pi + Arduino intrusion detection system
+- **[Flipper Zero](flipper-zero.html)** – Signal replay, NFC tools, firmware mods
+- **[PC Game Hacks & Editors](pc-game-hacks.html)** – Cheat Engine, save editors, trainers
+- **[DOOM on Sansa (Rockbox)](doom.html)** – Rockbox + running DOOM on an MP3 player
+
+---
 
 ## Tools & Downloads
 
-See the **[Downloads & Tools](downloads.html)** page for:
+Check out the [Downloads](downloads.html) page for:
 - Flashing tools (Odin, ADB/Fastboot, TWRP)
 - CFW and bootloader utilities
 - Save editors & cheat trainers
-- Flipper Zero firmware & mod links
+- Flipper Zero firmware/mod packs
 
-## Game Hacking Sections
+---
 
-### Consoles
-- 3DS: Checkpoint + PKHeX
-- PSP: CWCheats, PRO-CFW
-- PS Vita: Adrenaline, Enso, VitaShell
-- Wii/GameCube: Gecko + Riivolution
-- Retro: RetroArch cheat system
-- **Rockbox**: [DOOM port on Sansa MP3](doom.html)
+## Console Game Hacking
 
-### PC
-- Cheat Engine
-- FLiNG + MrAntiFun Trainers
-- Gibbed’s Save Editor (Borderlands 2)
-- Universal Steam game cheats (Skyrim, Fallout, Cyberpunk, Witcher 3)
+- **3DS:** Checkpoint, PKHeX, Braindump
+- **PSP:** CWCheats + PRO-CFW plugin system
+- **Wii/GameCube:** Gecko, Riivolution, USB Loader GX
+- **Retro:** RetroArch cheat system
+- **Rockbox:** DOOM on Sansa
 
-## Deployment
+---
 
-This is a flat HTML site — no frameworks or builds.  
-Host it easily using:
-- [GitHub Pages](https://pages.github.com)
-- [Netlify](https://netlify.com)
+## PC Game Hacking
+
+- Cheat Engine tables
+- FLiNG & MrAntiFun Trainers
+- Gibbed’s Save Editors (Borderlands, Mass Effect)
+- Skyrim, Fallout 4, Witcher 3 universal cheats
+
+---
+
+## Site Info
+
+This is a static HTML project, no frameworks or builds.  
+Deployed with [GitHub Pages](https://pages.github.com) and [Netlify](https://www.netlify.com).
+
+---
 
 ## Disclaimer
 
-All information is for educational purposes only.  
-No pirated content is included or linked.
+All content is for educational and archival purposes only.  
+No pirated files are hosted or linked.
