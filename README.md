@@ -1,3 +1,4 @@
+
 # My Modding Vault
 
 A personal archive of console hacking, device modding, game hacking, server setups, and cybersecurity experiments.  
@@ -20,7 +21,8 @@ Hosted here: [https://modding-site.netlify.app/](https://modding-site.netlify.ap
 - **[NAS Build](nas.html)** – Ubuntu server + Samba, OpenMediaVault
 - **[Raspberry Pi Projects](raspberry.html)** – RetroPie, Pi-hole, VPN, media servers  
   └ **[Network IDS Enterprise](https://github.com/x0452950/network-ids-enterprise)** – Snort-powered Raspberry Pi + Arduino intrusion detection system
-- **[Flipper Zero](flipper-zero.html)** – Signal replay, NFC tools, firmware mods
+- **[Flipper Zero](flipper-zero.html)** – Signal replay, NFC tools, firmware mods  
+  └ **[Flipper Zero NFC Toolkit – GitHub Capstone](https://github.com/x0452950/flipper-nfc-toolkit/tree/main)** – Custom firmware extension for NFC spoofing and fuzzing
 - **[PC Game Hacks & Editors](pc-game-hacks.html)** – Cheat Engine, save editors, trainers
 - **[DOOM on Sansa (Rockbox)](doom.html)** – Rockbox + running DOOM on an MP3 player
 
