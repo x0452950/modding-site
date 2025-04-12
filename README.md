@@ -3,7 +3,7 @@
 A personal archive of console hacking, device modding, game hacking, server setups, and cybersecurity experiments.  
 This static HTML site documents everything I’ve explored — from rooting Android devices to building enterprise-grade NIDS.
 
-Hosted here: [https://x0452950.github.io/modding-site](https://x0452950.github.io/modding-site)
+Hosted here: [https://modding-site.netlify.app/](https://modding-site.netlify.app/)
 
 ---
 
