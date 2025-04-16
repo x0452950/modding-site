@@ -49,6 +49,10 @@
       margin-top: 30px;
       padding-top: 10px;
     }
+
+    #osint-tools-container {
+      margin-top: 40px;
+    }
   </style>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -77,6 +81,21 @@
     <li><a href="downloads.html">Downloads &amp; Tools I Use</a></li>
     <li><a href="doom.html">DOOM on Sansa (Rockbox)</a></li>
   </ul>
+
+  <!-- OSINT Tools Content Loaded Here -->
+  <div id="osint-tools-container"></div>
+
+  <script>
+    fetch('osint-tools.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('osint-tools-container').innerHTML = html;
+      })
+      .catch(error => {
+        document.getElementById('osint-tools-container').innerHTML = '<p style="color:#ccc;">Failed to load OSINT Tools content.</p>';
+        console.error('Error loading OSINT tools:', error);
+      });
+  </script>
 
   <footer style="margin-top: 40px; font-size: 0.85rem; color: #aaa; border-top: 1px solid #444; padding-top: 10px;">
     All guides are for educational use only. Use responsibly.
