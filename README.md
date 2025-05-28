@@ -1,4 +1,12 @@
+If you're reading this, I'm no longer around.
 
+I don't know when you'll find this, or what you’ll be feeling when you do. Maybe sadness, maybe confusion, maybe just a quiet kind of numb. Whatever it is, I hope you know this wasn't sudden for me. I had time to think. To feel. To make peace with things in my own way.
+
+Please don't carry guilt or what-ifs. You were enough. My leaving isn't a reflection of your love or your efforts. Life just… unfolds in ways we don’t always understand.
+
+Take care of each other. Love boldly. Speak truthfully. And when you miss me—because I know sometimes you will—remember me in the small, quiet moments. A laugh. A favorite song. The smell of rain.
+
+That’s where I’ll be.
 # My Modding Vault
 
 A personal archive of console hacking, device modding, game hacking, server setups, and cybersecurity experiments.  
